@@ -1,0 +1,20 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .search-input {
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    // border-radius: 10px;
+    border: 1px solid #ddd0c8;
+    padding: 0 10px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

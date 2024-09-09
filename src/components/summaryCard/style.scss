@@ -1,0 +1,44 @@
+.card-container {
+  background-color: #f5eeea;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  span {
+    display: block;
+    color: #323232;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .book {
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .author {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: right;
+  }
+
+  .summary {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .tag {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+  }
+}
